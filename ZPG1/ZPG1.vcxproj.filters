@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\TextureImage">
+      <UniqueIdentifier>{045481d6-c91f-46f6-8f3a-6200220f70e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Factory">
+      <UniqueIdentifier>{19f3d9e2-c273-47c1-b3da-fe1c9e63a32b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Factory">
+      <UniqueIdentifier>{aedd6899-8ed8-43ab-94dc-96fbb7ccbfad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Transformation">
+      <UniqueIdentifier>{ddccf86b-101e-41b2-8723-a75959be72d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Transformation">
+      <UniqueIdentifier>{c16b6639-ce15-4d1b-96ea-90156f659ef7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Model">
+      <UniqueIdentifier>{a5278a22-16e7-4588-9d7a-55b03c834d40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model">
+      <UniqueIdentifier>{68a7e30a-740f-468a-882b-fb5eaaa6ed79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Light">
+      <UniqueIdentifier>{251bf295-83b8-4cc4-8659-493f510bbc01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Light">
+      <UniqueIdentifier>{cea9e695-4489-4be1-8d82-095e7d893d07}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderProgram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawableObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelFactory.cpp">
+      <Filter>Source Files\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelObjectFactory.cpp">
+      <Filter>Source Files\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelSkycubeFactory.cpp">
+      <Filter>Source Files\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelTextureFactory.cpp">
+      <Filter>Source Files\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="BezierCurve.cpp">
+      <Filter>Source Files\Transformation</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicRotation.cpp">
+      <Filter>Source Files\Transformation</Filter>
+    </ClCompile>
+    <ClCompile Include="Rotation.cpp">
+      <Filter>Source Files\Transformation</Filter>
+    </ClCompile>
+    <ClCompile Include="Scale.cpp">
+      <Filter>Source Files\Transformation</Filter>
+    </ClCompile>
+    <ClCompile Include="Translation.cpp">
+      <Filter>Source Files\Transformation</Filter>
+    </ClCompile>
+    <ClCompile Include="Transformation.cpp">
+      <Filter>Source Files\Transformation</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelInterface.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelObjectLoader.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelObject.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelSkycube.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelTexture.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Source Files\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionalLight.cpp">
+      <Filter>Source Files\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="PointLight.cpp">
+      <Filter>Source Files\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="SpotLight.cpp">
+      <Filter>Source Files\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicTransformation.cpp">
+      <Filter>Source Files\Transformation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderProgram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawableObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bushes.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObserverInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Plain.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SubjectInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SuziFlat.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlainTexture.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyCube.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FactoryInterface.h">
+      <Filter>Header Files\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelFactory.h">
+      <Filter>Header Files\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelObjectFactory.h">
+      <Filter>Header Files\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelSkycubeFactory.h">
+      <Filter>Header Files\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelTextureFactory.h">
+      <Filter>Header Files\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Translation.h">
+      <Filter>Header Files\Transformation</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformationComponent.h">
+      <Filter>Header Files\Transformation</Filter>
+    </ClInclude>
+    <ClInclude Include="Transformation.h">
+      <Filter>Header Files\Transformation</Filter>
+    </ClInclude>
+    <ClInclude Include="Rotation.h">
+      <Filter>Header Files\Transformation</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicRotation.h">
+      <Filter>Header Files\Transformation</Filter>
+    </ClInclude>
+    <ClInclude Include="Scale.h">
+      <Filter>Header Files\Transformation</Filter>
+    </ClInclude>
+    <ClInclude Include="BezierCurve.h">
+      <Filter>Header Files\Transformation</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelInterface.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelObjectLoader.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelObject.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelSkycube.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelTexture.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionalLight.h">
+      <Filter>Header Files\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Header Files\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLight.h">
+      <Filter>Header Files\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="SpotLight.h">
+      <Filter>Header Files\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicTransformation.h">
+      <Filter>Header Files\Transformation</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vertex_shader.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fragment_shader.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fragment_shader_phong.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="vertex_shader_phong.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="vertex_shader_const.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fragment_shader_const.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fragment_shader_lambert.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="vertex_shader_lambert.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fragment_shader_blinn.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="vertex_shader_blinn.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fragment_shader_phong_more_lights.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="vertex_shader_phong_more_lights.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fragment_spot.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="vertex_point.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fragment_directional.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fragment_shader_texture.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="vertex_shader_texture.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fragment_shader_skycube.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="vertex_shader_skycube.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="house.mtl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="house.blend">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="vertex_assimp.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fragment_assimp.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="skull.mtl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="sniper.mtl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="vertex_shader_texture_lights.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fragment_shader_texture_lights.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fragment_shader_test_scene.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="vertex_shader_test_scene.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="PhongFragmentShader.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="PhongVertexShader.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fragment_shader_skycube_night.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="house2.jpg">
+      <Filter>Resource Files\TextureImage</Filter>
+    </Image>
+    <Image Include="palm.jpg">
+      <Filter>Resource Files\TextureImage</Filter>
+    </Image>
+    <Image Include="stone.jpg">
+      <Filter>Resource Files\TextureImage</Filter>
+    </Image>
+    <Image Include="clouds.jpg">
+      <Filter>Resource Files\TextureImage</Filter>
+    </Image>
+    <Image Include="gold.jpg">
+      <Filter>Resource Files\TextureImage</Filter>
+    </Image>
+    <Image Include="grass.jpg">
+      <Filter>Resource Files\TextureImage</Filter>
+    </Image>
+    <Image Include="C:\Users\koste\OneDrive\Počítač\grass.png">
+      <Filter>Resource Files\TextureImage</Filter>
+    </Image>
+    <Image Include="house.png">
+      <Filter>Resource Files\TextureImage</Filter>
+    </Image>
+    <Image Include="negx.jpg">
+      <Filter>Resource Files\TextureImage</Filter>
+    </Image>
+    <Image Include="negy.jpg">
+      <Filter>Resource Files\TextureImage</Filter>
+    </Image>
+    <Image Include="negz.jpg">
+      <Filter>Resource Files\TextureImage</Filter>
+    </Image>
+    <Image Include="posx.jpg">
+      <Filter>Resource Files\TextureImage</Filter>
+    </Image>
+    <Image Include="posy.jpg">
+      <Filter>Resource Files\TextureImage</Filter>
+    </Image>
+    <Image Include="posz.jpg">
+      <Filter>Resource Files\TextureImage</Filter>
+    </Image>
+    <Image Include="Skull.jpg">
+      <Filter>Resource Files\TextureImage</Filter>
+    </Image>
+    <Image Include="sniper.jpg">
+      <Filter>Resource Files\TextureImage</Filter>
+    </Image>
+    <Image Include="zombie.png">
+      <Filter>Resource Files\TextureImage</Filter>
+    </Image>
+    <Image Include="tree.png">
+      <Filter>Resource Files\TextureImage</Filter>
+    </Image>
+    <Image Include="skydome.png">
+      <Filter>Resource Files\TextureImage</Filter>
+    </Image>
+    <Image Include="fulldome3.jpg">
+      <Filter>Resource Files\TextureImage</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
