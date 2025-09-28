@@ -5,14 +5,6 @@ The project is implemented in **C++** using **Visual Studio**, with support for 
 
 ---
 
-## 📂 Project Structure
-
-- `ZPG1/` – source code (C++ headers, sources, shaders, resources)  
-- `ZPG1.sln` – Visual Studio solution file  
-- `.gitignore` – excludes build outputs and Visual Studio cache files  
-
----
-
 ## 🛠️ Tech Stack
 
 - **Language:** C++17  
